@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     res+= finalNumericArray[i];
                 }
                 res = res/finalNumericArray.length;
-                outputDiv.innerHTML = "Result of the average :<br>"+ res;
+                outputDiv.innerHTML = "Result of the average :<br>"+ res.toFixed(2);
 
                }else if(document.getElementById("Max").checked){
                 let res = Math.max(...finalNumericArray);
