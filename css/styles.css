@@ -1,0 +1,38 @@
+span{
+    margin-left: 40px;
+}
+
+body {
+    background-color: #F2EAD3;
+    color: #000; 
+}
+
+#output {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+legend{
+    margin-left: 20vh;
+}
+
+.light-theme {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.dark-theme {
+    background-color: #333;
+    color: #f5f5f5;
+}
+
+.button_theme{
+    position: fixed;
+    bottom: 100px;
+}

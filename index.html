@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <header class="bg-dark text-light">
+        <nav class="container">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="excel.html">Excel</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container mt-4">
+        <form id="main-form" name="mainform">
+
+            <div class="form-group">
+                
+                <label for="First_name">First Name* :</label>
+                <input type="text" name="First_name" id="First_name" maxlength="25" required><br>
+                
+                <label for="Last_name">Last Name* :</label>
+                <input type="text" name="Last_name" id="Last_name" maxlength="25" required><br>
+
+                <label for="Email">Email* :</label>
+                <input type="email" name="Email" id="Email" maxlength="35" required><br>
+
+                <label for="Address ">Address* :</label>
+                <input type="Address" name="Address" id="Address" maxlength="35" required><br>
+
+                <label for="City">City* :</label>
+                <input type="text" name="City" id="City" maxlength="25" required><br>
+                
+                <label for="Province">Province* :</label>
+                <input type="text" name="Province" id="Province" maxlength="25" required><br>
+
+                <label>Choose the membership that's right for you :</label><br>
+                <input type="radio" name="Membership" id="Premium" value="Premium" checked> Premium Membership
+                <br><input type="radio" name="Membership" id="Standard" value="Standard"> Standard Memebership
+                <br><input type="radio" name="Membership" id="Basic" value="Basic"> Basic Membership
+            </div>
+
+            <button type="submit" class="btn btn-primary" id="send-button">Send</button>
+            <button type="submit" class="btn btn-secondary" id="cancel-button">Cancel</button>
+        </form>
+
+        <div id="output">
+        </div>
+
+        <div class="button_theme">
+            <button type="submit" class="btn btn-light" id="lightTheme">Light Theme</button>
+            <button type="submit" class="btn btn-dark" id="darkTheme">Dark Theme</button>
+        </div>
+
+    </main>
+
+    <footer class="bg-dark text-light text-center py-3">
+        <p>ILAC & EFREI - HTML, CSS, and JavaScript Assignment - Mathys GUILLELMET & Léopold HAMON</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>

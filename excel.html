@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <header class="bg-dark text-light">
+        <nav class="container">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="excel.html">Excel</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container mt-4">
+        <form id="main-form" name="mainform">
+
+            <legend>Excel Functions</legend>
+
+            <div class="form-group">
+                
+                <label for="Enter">Enter your numbers separated by spaces :</label>
+                <input type="text" name="Enter" id="Enter" maxlength="35" required><br>
+                
+                <br><input type="radio" name="Action" id="Sum" value="AutoSum" checked> AutoSum
+                <br><input type="radio" name="Action" id="Ave" value="Average"> Average
+                <br><input type="radio" name="Action" id="Max" value="Max"> Max
+                <br><input type="radio" name="Action" id="Min" value="Min"> Min
+            </div>
+
+            <button type="submit" class="btn btn-primary" id="calculate-button">Calculate</button>
+
+        </form>
+
+        <div id="output">
+        </div>
+
+        <div class="button_theme">
+            <button type="submit" class="btn btn-light" id="lightTheme">Light Theme</button>
+            <button type="submit" class="btn btn-dark" id="darkTheme">Dark Theme</button>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-light text-center py-3">
+        <p>ILAC & EFREI - HTML, CSS, and JavaScript Assignment - Mathys GUILLELMET & Léopold HAMON</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
