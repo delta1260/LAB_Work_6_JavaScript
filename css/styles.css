@@ -18,10 +18,9 @@ footer {
     width: 100%;
 }
 
-legend{
+#Excel_label{
     margin-left: 20vh;
 }
-
 .light-theme {
     background-color: #f5f5f5;
     color: #333;
